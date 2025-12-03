@@ -1,3 +1,14 @@
+// Q1: Stack Diagram (ping() first call)
+// -------------------------------------
+// | ping()      |  • no local vars    |
+// -------------------------------------
+// | baffle()    |  • no local vars    |
+// -------------------------------------
+// | zoop()      |  • no local vars    |
+// -------------------------------------
+// | main(args)  |  • args: String[]   |
+// -------------------------------------
+
 public class Exercise4_3 {
 
     public static void zoop() {
@@ -22,3 +33,15 @@ public class Exercise4_3 {
         System.out.println(".");
     }
 }
+
+// Q2: Program Output (exactly)
+//
+// No, I wug.
+// You wugga wug.
+// I wug.
+//
+
+
+
+
+
